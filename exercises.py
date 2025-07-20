@@ -106,6 +106,28 @@ print('Exercise 5:', sum_to(6))
 #
 # Define your function and test it with different inputs.
 
-
-
+def largest(int1, int2, int3):
+    if int1 >= int2 and int1 >= int3:
+        return int1
+    elif int2 >= int1 and int2 >= int3:
+        return int2
+    else:
+        return int3
+    
 print('Exercise 6:', largest(1, 2, 3))
+
+
+
+# Exercise 7: Calculate a Tip
+#
+# Create a function called `calculate_tip`. It should take the bill amount and the tip percentage (as a whole number).
+# The function should return the amount of the tip.
+#
+# Examples:
+# calculate_tip(50, 20) should return 10.
+#
+# Write your function and test its output below.
+
+
+
+print('Exercise 7:', calculate_tip(50, 20))
